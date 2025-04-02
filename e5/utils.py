@@ -208,4 +208,5 @@ def get_detailed_instruct(task_description: str) -> str:
     if not task_description:
         return ''
 
+
     return 'Instruct: {}\nQuery: '.format(task_description)
